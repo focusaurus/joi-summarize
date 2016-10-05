@@ -1,0 +1,27 @@
+{
+  "name": "joi-summarize",
+  "version": "1.0.0",
+  "description": "Summarize all joi errors into a single message",
+  "main": "./code/joi-summarize.js",
+  "scripts": {
+    "coverage": "tap --100 --coverage-report=html ./code/**/*.tap.js",
+    "lint": "eslint code",
+    "test": "tap --100 ./code/**/*.tap.js && eslint code",
+    "test-unit": "tap ./code/**/*.tap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focusaurus/joi-summarize.git"
+  },
+  "author": "Peter Lyons <pete@peterlyons.com> (http://peterlyons.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "3.7.1",
+    "eslint-config-standard": "6.2.0",
+    "eslint-plugin-promise": "2.0.1",
+    "eslint-plugin-standard": "2.0.1",
+    "joi": "9.1.0",
+    "standard-version": "2.4.0",
+    "tap": "7.1.2"
+  }
+}
