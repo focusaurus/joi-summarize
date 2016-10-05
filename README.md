@@ -58,6 +58,7 @@ Unacceptable data.
 
 ## Stinking Badges
 ![](https://img.shields.io/npm/v/joi-summarize.svg)
+[![Build Status](https://semaphoreci.com/api/v1/focusaurus/joi-summarize/branches/master/badge.svg)](https://semaphoreci.com/focusaurus/joi-summarize)
 [![npm](https://img.shields.io/npm/l/joi-summarize.svg?maxAge=2592000)]()
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
