@@ -63,4 +63,4 @@ Unacceptable data.
 
 # License: MIT
 
-See [license.txt]()
+See [LICENSE]()
