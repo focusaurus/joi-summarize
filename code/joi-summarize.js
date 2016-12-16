@@ -10,7 +10,7 @@
  *
  * @return {String} The summarized error message string
  */
-function summarize (error, summary = 'Invalid input') {
+function summarize (error, summary) {
   if (error == null) {
     return
   }
@@ -18,7 +18,7 @@ function summarize (error, summary = 'Invalid input') {
     throw new TypeError('error must be a joi error object')
   }
   const paths = (error.details || []).map(detail => detail.message)
-  return [summary].concat(paths).join('.\n') + '.\n'
+  return [summary || 'Invalid input'].concat(paths).join('.\n') + '.\n'
 }
 
 module.exports = summarize
