@@ -1,6 +1,6 @@
 {
   "name": "joi-summarize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Summarize all joi errors into a single message",
   "main": "./code/joi-summarize.js",
   "scripts": {
